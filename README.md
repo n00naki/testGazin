@@ -25,7 +25,7 @@
  
 ### Iniciando a aplicação 
 #### Front-end
- - Abrir o terminal no caminho `teste-gazin/web`
+ - Abrir o terminal no caminho `testGazin/web`
  - Baixar o node_modules com o comando `npm install`
  - Executar o comando `npm start` para iniciar a aplicação.
  - Será executado no endereço http://localhost:3000
@@ -33,7 +33,7 @@
 #### Back-end
  - No seu PostgreSQL Criar a tabela db_teste 
  - No arquivo `ormconfig.json`, `passar host, porta, username e password do seu banco de dados postreSQL localhost`
- - Abrir o terminal no caminho `teste-gazin/server`
+ - Abrir o terminal no caminho `testGazin/server`
  - Baixar o node_modules com o comando `npm install`
  - Executar a migration de criação da tabela com o comando `npm run typeorm migration:run` caso  necessite reverter o processo utilize o comando `npm run typeorm migration:revert`
  - Executar o comando `npm run dev` para iniciar a aplicação.
